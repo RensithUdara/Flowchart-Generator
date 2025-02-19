@@ -22,7 +22,7 @@ def generate_flowchart(user_requirement, output_format):
         messagebox.showerror("Error", "Mermaid CLI (mmdc) not found!\nInstall it using: npm install -g @mermaid-js/mermaid-cli")
         return
     
-    client = Groq(api_key="your_api_key_here")
+    client = Groq(api_key="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")
     
     prompt = f"""
     Create a Mermaid flowchart following ISO 5807:1985 standards for: {user_requirement}
