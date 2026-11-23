@@ -1,3 +1,6 @@
 /flowchart.svg
 node_modules
-config.bat
+.env
+.env.*
+.env.local
+.env.production
